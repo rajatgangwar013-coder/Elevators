@@ -70,7 +70,7 @@ interface ToastState {
    REDUX TYPES
 ===================================================== */
 
-type AppDispatch = typeof import('../../../store').store.dispatch
+type AppDispatch = typeof import('../../store').store.dispatch
 
 const useAppDispatch = () => useDispatch<AppDispatch>()
 const useAppSelector: TypedUseSelectorHook<RootState> = useSelector
