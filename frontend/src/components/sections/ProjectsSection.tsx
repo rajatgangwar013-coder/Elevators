@@ -347,7 +347,7 @@ function ProjectCard({
             font-semibold
             tracking-[0.25em]
             uppercase
-            text-blue-400
+            text-yellow-400
             mb-3
           "
         >
@@ -466,7 +466,7 @@ const filtered = PROJECTS.slice(0, 6)
         >
           <div>
             <Reveal>
-              <p className="eyebrow mb-4 text-blue-400">
+              <p className="eyebrow mb-4 text-yellow-400">
                 Portfolio
               </p>
             </Reveal>
