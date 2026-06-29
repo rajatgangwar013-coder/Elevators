@@ -134,7 +134,7 @@ const mobileLinks = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
-  { label: 'Projects', href: '/projects' },
+  // { label: 'Projects', href: '/projects' },
   { label: 'Technology', href: '/technology' },
   { label: 'Safety', href: '/safety' },
   { label: 'Careers', href: '/careers' },

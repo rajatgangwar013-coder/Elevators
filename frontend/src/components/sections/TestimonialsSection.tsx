@@ -35,16 +35,7 @@ export function TestimonialsSection() {
                   "{t.quote}"
                 </p>
 
-                {/* Author */}
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-blue-dim border border-blue/30 flex items-center justify-center font-ui text-[12px] font-bold text-blue-glow flex-shrink-0">
-                    {t.initials}
-                  </div>
-                  <div>
-                    <div className="font-ui text-[13px] font-semibold text-brand-white">{t.author}</div>
-                    <div className="text-[11px] font-light text-silver">{t.title}, {t.company}</div>
-                  </div>
-                </div>
+             
 
                 {/* Hover bottom line */}
                 <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-glow to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />

@@ -12,9 +12,9 @@ type FormData = { name: string; email: string; phone: string; subject: string; m
 const contactInfo = [
   { icon: '📍', label: 'Head Office', value: 'C-40, Vidhyanagar,Narmadapuram Road, Bhopal, Madhya Pradesh', href: null },
   { icon: '📞', label: 'Sales & Enquiries', value: '+0755-4941509', href: 'tel: 0755-4941509' },
-  { icon: '🚨', label: '24/7 Emergency', value: '+0755-4941509', href: 'tel: 0755-4941509' },
+  { icon: '🚨', label: '24/7 Emergency', value: '+919589005744', href: 'tel: +919589005744' },
   { icon: '✉', label: 'Email', value: 'onwardelevators@gmail.com', href: 'mailto:onwardelevators@gmail.com' },
-  { icon: '💬', label: 'WhatsApp Business', value: 'Chat with us instantly', href: 'https://wa.me/918001002345' },
+  { icon: '💬', label: 'WhatsApp Business', value: 'Chat with us instantly', href: 'https://wa.me/9589005744' },
   { icon: '🕐', label: 'Business Hours', value: 'Mon–Sat: 9 AM – 6 PM | Emergency: 24/7', href: null },
 ]
 

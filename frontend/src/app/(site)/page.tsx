@@ -25,17 +25,17 @@ export default function HomePage() {
     <>
       <HeroSection />
       <IndustriesStrip />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <BrandIntroSection />
       <ServicesSection />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
       <WhyUsSection />
       <TechnologySection />
       <TestimonialsSection />
       <ProcessSection />
       <FAQSection />
       <CTASection />
-    
+
     </>
   )
 }

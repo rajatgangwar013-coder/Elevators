@@ -20,7 +20,7 @@ export function BrandIntroSection() {
               <div className="space-y-4 text-silver text-[15px] font-light leading-[1.9] mb-10">
                 <p>At Onward Elevators, we believe that vertical movement is more than mechanical function — it is an architectural statement, a moment of luxury, a testament to precision engineering.</p>
                 <p>Every elevator we design and install is a marriage of cutting-edge technology and timeless elegance. From the whisper-quiet motor systems to the hand-finished cabin interiors, we obsess over every detail so your building's occupants never have to.</p>
-                <p>With 200+ engineers, designers, and installation specialists bringing decades of expertise to every project, Onward ensures your vertical transport solution exceeds the highest international standards.</p>
+                <p>With 20+ engineers, designers, and installation specialists bringing decades of expertise to every project, Onward ensures your vertical transport solution exceeds the highest international standards.</p>
               </div>
             </Reveal>
             <Reveal delay={0.2}>

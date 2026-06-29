@@ -796,11 +796,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     answer:
       'All Onward Elevators are designed and tested to meet National Building Code (NBC) 2016 requirements, BIS IS 14665 standards, and local municipal corporation specifications. We obtain and maintain all necessary operational licenses and technical certifications required by relevant statutory authorities, and handle all inspection and approval documentation as part of the installation package.',
   },
-  {
-    question: 'Which areas do you serve?',
-    answer:
-      'We operate actively across Bhopal and the wider Madhya Pradesh region, serving both private sector clients and prestigious government organizations including M.P. Mantralaya, M.P. Vidhan Sabha, and top-class builders and residential developers across the state.',
-  },
+ 
 ]
 
 // ─── TECHNOLOGY FEATURES ──────────────────────────────────────────────────

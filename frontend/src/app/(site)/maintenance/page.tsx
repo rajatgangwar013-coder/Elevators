@@ -256,7 +256,8 @@ export default function MaintenancePage() {
             <Reveal delay={0.15}>
               <div className="grid grid-cols-1 gap-px bg-white/7">
                 {[
-                  { icon: '📞', label: 'Helpline', value: '0755-4941509' },
+                  // { icon: '📞', label: 'Helpline', value: '' },
+                  { icon: '📞', label: 'Helpline', value: '+919589005744, 0755-4941509' },
                   { icon: '📧', label: 'Email', value: 'onwardelevators@gmail.com' },
                   { icon: '📍', label: 'Head Office', value: 'C-40, Vidhyanagar, Narmadapuram Road, Bhopal, M.P.' },
                 ].map((item) => (

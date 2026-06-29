@@ -111,13 +111,13 @@ export function HeroSection() {
       {/* Text */}
       <motion.p custom={0} variants={fade} initial="hidden" animate="show"
         className="eyebrow justify-center mb-6" style={{ zIndex: 2 }}>
-        Est. 2008 · Premium Vertical Transport
+        Est. 2024 · Premium Vertical Transport
       </motion.p>
 
       <h1 ref={titleRef} className="display-xl text-brand-white mb-4" style={{ zIndex: 2, opacity: 0 }}>
      Step Forward <br />
-        <span className="text-outlined" style={{ fontStyle: 'normal' }}>Smoothly,</span>
-        <br /> Safely
+        <span className="text-outlined" style={{ fontStyle: 'normal' }}>Smoothly,  Safely</span>
+       
       </h1>
 
       {/* <motion.p custom={2} variants={fade} initial="hidden" animate="show"

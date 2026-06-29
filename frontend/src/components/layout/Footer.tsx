@@ -373,13 +373,8 @@ const socials = [
     color: '#E1306C',
     hoverShadow: 'rgba(225,48,108,0.25)',
   },
-  {
-    label: 'YouTube',
-    href: 'https://youtube.com',
-    icon: <YouTubeIcon />,
-    color: '#FF0000',
-    hoverShadow: 'rgba(255,0,0,0.25)',
-  },
+
+
 ]
 
 export function Footer() {
@@ -499,28 +494,21 @@ export function Footer() {
             <p className="text-silver text-[12px] font-light leading-[1.8] mb-4 max-w-[320px]">
               Industry insights, project showcases, and engineering innovations.
             </p>
-            <form onSubmit={handleSubscribe} className="relative mb-7 max-w-[320px]">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Your email"
-                className="form-input-luxury pr-[90px] text-[12px] py-3"
-              />
-              <button
-                type="submit"
-                className="absolute right-0 top-0 bottom-0 bg-yellow-400 hover:bg-yellow-400-glow
-                  text-white font-ui text-[9px] font-bold tracking-[0.15em] uppercase
-                  px-3.5 cursor-none transition-colors duration-300 border-none"
-              >
-                Subscribe
-              </button>
-            </form>
+
 
             <h3 className="font-ui text-[10px] font-bold tracking-[0.2em] uppercase text-brand-white mb-3">Contact</h3>
             <div className="text-silver text-[12px] font-light leading-[2]">
               {/* Phone — clicks to call */}
               <p>
+                📞{' '}
+                <a
+                  href="tel:+919589005744"
+                  className="text-silver hover:text-brand-white transition-colors duration-300 no-underline cursor-none"
+                >
++919589005744
+                </a>
+              </p>
+               <p>
                 📞{' '}
                 <a
                   href="tel:+917554941509"
